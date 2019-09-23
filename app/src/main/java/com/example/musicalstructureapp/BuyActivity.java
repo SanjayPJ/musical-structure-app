@@ -6,16 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class SearchActivity extends AppCompatActivity {
+public class BuyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search);
+        setContentView(R.layout.activity_buy);
     }
 
-    public void playing(View view){
-        Intent intent = new Intent(this, PlayingActivity.class);
-        startActivity(intent);
+    public void buy_song(View view){
+        // define payment api methods here
     }
 }

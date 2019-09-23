@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class SearchActivity extends AppCompatActivity {
+public class DetailsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search);
+        setContentView(R.layout.activity_details);
     }
 
-    public void playing(View view){
-        Intent intent = new Intent(this, PlayingActivity.class);
+    public void buy(View view){
+        Intent intent = new Intent(this, BuyActivity.class);
         startActivity(intent);
     }
 }

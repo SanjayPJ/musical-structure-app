@@ -37,6 +37,7 @@
             android:layout_marginTop="20dp"
             android:background="@android:color/darker_gray"
             android:orientation="vertical"
+            android:onClick="playing"
             android:padding="10dp">
 
             <TextView
@@ -58,6 +59,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:onClick="playing"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@android:color/darker_gray"
